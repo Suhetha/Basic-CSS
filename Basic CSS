@@ -1,0 +1,50 @@
+HTML
+<html>
+<head>
+<title>Tourism</title>
+<link rel ="stylesheet" href="sample.css">
+</head>
+<body>
+<h1><center><marquee direction="right">MAGICAL PLACES TO TRAVEL AROUND!!!</center><br></marquee direction></h1>
+<h2>1.THE TAJ MAHAL</h2>
+<center><img src ="taj.jpg" width="450" height="300"></center><br>
+<p>The taj mahal is also the world's most testimony to the power oh love.It is located in the bank of the Yamuna River.Dusk and dawn time are the best way to visit it.</p>
+<h3>BEST TIME:March to June</h3>
+<input type="button" value="View Packages">
+<h2>2.MANALI</h2>
+<center><img src="ma.jpg" width="450" height="300"></center><br>
+<p>One of the most popular hill stations in HIMACHAL,Manali offers the most significant views of covered snows.</p>
+<h3>BEST TIME:October to June</h3>
+<input type="button" value="View Packages">
+<h2>3.GOA</h2>
+<Center><img src="goa.jpg" width="450" height="300"></center><br>
+<p>Goa is the India's smallest state and unlike any other,it is known for its endless beaches,stellar nightlife,ecelectic food and world heritage listed architecture.</p>
+<h3>BEST TIME:October to March</h3>
+<input type="button" value="View Packages">
+<h2>4.ALLEPPEY</h2>
+<center><img src="all.jpg" width="450" height="300"></center><br>
+<p>Officially called Alappuzha.Alleppey is picture -perfect place known for its beautiful backwaters and the houseboats offering overnight stay.</p>
+<h3>BEST TIME:June to March</h3>
+<input type="button" value="View Packages">
+</body>
+</html> 
+
+CSS
+
+body{
+margin: 0 auto;
+background-image: url("bea.jpg");
+background-position: center;
+background-attachment:fixed;
+ text-align:center;
+}
+h1{
+font-size:100px;
+color:red;
+border-style:dashed;
+}
+p,h3{
+font-size:40px;}
+h2{
+font-size:60px;
+}
